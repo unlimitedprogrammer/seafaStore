@@ -1,0 +1,134 @@
+/* Check bottom for Media query */
+body {
+  font-family: "Montserrat";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+
+#title {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(92, 77, 66, 0.8)),
+      to(rgba(92, 77, 66, 0.8))
+    ),
+    url("../images/fashion.jpg");
+  color: #fff;
+  text-align: center;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 1.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Title Section */
+.title-image {
+  width: 20%;
+  margin-bottom: 20px;
+}
+
+#title h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+.tagline {
+  font-style: italic;
+  font-family: "Dancing Script", cursive;
+  margin: 30px;
+}
+
+.horizontal {
+  width: 10%;
+  border-width: 5px;
+  border-color: #c9aa;
+  padding-bottom: 20px;
+}
+
+#about {
+  padding: 7% 15%;
+  background-color: #742d53;
+  color: #fff;
+}
+
+.about-text {
+  text-align: center;
+}
+
+.about-text h2 {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.about-text h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#products {
+  padding: 7% 15%;
+}
+
+#contact {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #742d53;
+  color: #fff;
+}
+
+#footer {
+  padding: 1% 15%;
+  text-align: center;
+}
+
+/* CSS styles from Sami 👇👇👇*/
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  /* #title {
+    background-position: center left;} */
+  /* You would only be seeing the leftside handBag on your mobile screen */
+
+  #title {
+    background-position: center center;
+    /* Best option is to stick with this. Only the center of the image. Otherwise, work on the image, make it full on small and full so 
+    it can show in full on mobile. To avoid Headaches, just stick with this and move on. Goodluck✌*/
+  }
+
+  /* #title {
+    background-position: center right;} */
+  /* You would only be seeing the rightside handBag on your mobile screen */
+}
+
+/* 
+
+CLEAR ALL COMMENTS AFTER!
+
+*/
